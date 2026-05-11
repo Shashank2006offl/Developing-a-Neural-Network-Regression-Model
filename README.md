@@ -1,4 +1,4 @@
-[# Developing a Neural Network Regression Model
+# Developing a Neural Network Regression Model
 
 ## AIM
 To develop a neural network regression model for the given dataset.
@@ -147,4 +147,3 @@ print(f'Prediction: {prediction}')
 
 ## RESULT
 Thus, a neural network regression model was successfully developed and trained using PyTorch.
-](https://github.com/Shashank2006offl/Developing-a-Neural-Network-Regression-Model)
