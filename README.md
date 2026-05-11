@@ -4,7 +4,24 @@
 To develop a neural network regression model for the given dataset.
 
 ## THEORY
-Explain the problem statement
+A regression problem involves predicting a continuous numerical value based on input data. Traditional statistical methods may not provide accurate predictions when the relationship between input variables and output values is complex or nonlinear. To overcome this limitation, a Neural Network Regression Model can be developed using deep learning techniques.
+
+The problem is to design and implement a neural network model that can learn patterns from a given dataset and accurately predict continuous output values. The model should accept multiple input features, process them through hidden layers using activation functions, and generate a predicted numerical result.
+
+The system must be trained using historical data, optimized using suitable loss functions and optimizers, and evaluated using performance metrics such as Mean Squared Error (MSE) and Root Mean Squared Error (RMSE). The objective is to improve prediction accuracy, reduce error, and create a model capable of handling real-world regression tasks such as house price prediction, temperature forecasting, sales prediction, or stock value estimation.
+
+Objectives
+To build a neural network for regression tasks.
+To train the model using input datasets.
+To minimize prediction error using optimization techniques.
+To evaluate the model performance using regression metrics.
+To achieve accurate prediction of continuous numerical outputs.
+Applications
+House price prediction
+Weather forecasting
+Sales prediction
+Medical data analysis
+Stock market prediction
 
 ## Neural Network Model
 <img width="852" height="634" alt="image" src="https://github.com/user-attachments/assets/8d5afcac-cb9d-48d0-abaa-1fe42e2bdda5" />
@@ -45,9 +62,8 @@ Use the trained model to predict  for a new input value .
 
 ## PROGRAM
 
-### Name:  SHASHANK R
-
-### Register Number:  212223230205
+### Name: SHASHANK
+### Register Number: 212223230205
 
 ```python
 import torch
@@ -98,7 +114,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 
-# Name: SHASHANK R
+# Name: SHASHANK
 # Register Number: 212223230205
 def train_model(ai_brain, X_train, y_train, criterion, optimizer, epochs=2000):
     for epoch in range(epochs):
